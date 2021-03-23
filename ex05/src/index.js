@@ -1,7 +1,7 @@
 function myObject() {
-  'use strict';
+  "use strict";
   const MATH_CONSTANTS = {
-    E: 2.71828,
+    E: 2.71828
   };
   // Only change code below this line
   Object.freeze(MATH_CONSTANTS);
@@ -15,5 +15,4 @@ function myObject() {
   return MATH_CONSTANTS.E;
 }
 const E = myObject();
-console.log(E);
 module.exports = myObject;

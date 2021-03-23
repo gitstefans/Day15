@@ -1,6 +1,5 @@
 // Only change code below this line
-const product = (...arggs) => {
-  const args = [...arggs];
+const product = (...args) => {
   // Only change code above this line
   return args.reduce((a, b) => a * b, 1);
 };

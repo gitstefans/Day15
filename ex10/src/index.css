@@ -78,6 +78,9 @@ footer {
   position: absolute;
   bottom: 0;
 }
+footer li a {
+  text-decoration: none;
+}
 .footer-left {
   display: flex;
   float: left;
